@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Always Create A Strong Password</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="container1">
+        <h1> Generate a <br><span>Random Password</span></h1>
+        <div class="display">
+            <input type="text" id="password" placeholder="Password">
+            <img src="copy.svg" onclick="copypassword()">
+        </div>
+
+        <button onclick="createPassword()"><img src="generate.svg"alt="">Generate Password</button>
+    </div>
+   
+
+<div class="container2">
+    <div class="box">
+        <h1>Save your password </h1>
+        <button class="btn">Write Password</button>
+        <input id="key-password" type="text" placeholder="Enter Display Key-To Show Your Password">
+        <button onclick="checkPassword()">Submit</button>
+        <div class="password-container">
+            <!-- <p contenteditable="true" class="input-boxes">
+
+                <img  src="delete.svg" >
+            </p> -->
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="script.js"></script>
+<script src="script2.js"></script>
+
+</html>
